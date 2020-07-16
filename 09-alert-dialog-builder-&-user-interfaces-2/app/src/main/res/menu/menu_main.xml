@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.DetailsActivity|.activities.MainActivity">
+
+    <item
+        android:id="@+id/action_main"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="Main"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/more_items"
+        android:icon="@drawable/ic_more_vert_white_24dp"
+        android:title=""
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/action_about"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="About Us"
+                app:showAsAction="ifRoom">
+            </item>
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Settings"
+                app:showAsAction="ifRoom">
+            </item>
+        </menu>
+    </item>
+</menu>

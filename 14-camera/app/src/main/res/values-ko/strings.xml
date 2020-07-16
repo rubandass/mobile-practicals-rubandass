@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"></string>
+    <string name="general">일반</string>
+    <string name="personal_info">개인 정보</string>
+    <string name="dark_mode">다크 모드</string>
+    <string name="push_notifications">푸시 알림</string>
+    <string name="ff">팔로 잉 및 추종자</string>
+    <string name="about_us">회사 소개</string>
+    <string name="rate_us">우리를 평가</string>
+    <string name="settings">설정</string>
+</resources>

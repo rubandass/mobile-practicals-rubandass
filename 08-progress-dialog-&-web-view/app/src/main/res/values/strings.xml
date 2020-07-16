@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">08-progress-dialog-&#x26;-web-view</string>
+    <string name="TAG">MainActivity</string>
+    <string name="on_data_available">onDataAvailable - %1$s</string>
+    <string name="on_error">onError - %1$s</string>
+    <string name="base_url">http://ws.audioscrobbler.com/2.0/</string>
+    <string name="method">artist.gettopalbums</string>
+    <string name="api_key">58384a2141a4b9737eacb9d0989b8a8c</string>
+    <string name="format">json</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="textView">Please wait...</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_custom_progress_bar">CustomProgressBar</string>
+</resources>

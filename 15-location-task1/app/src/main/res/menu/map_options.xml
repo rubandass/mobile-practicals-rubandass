@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapsActivity">
+
+    <item
+        android:id="@+id/map_options"
+        android:icon="@drawable/ic_more_vert_white_24dp"
+        android:title=""
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/normal_map"
+                android:title="Normal"
+                android:icon="@drawable/ic_traffic_black_24dp"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/hybrid_map"
+                android:title="Hybrid"
+                android:icon="@drawable/ic_map_black_24dp"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/satellite_map"
+                android:title="Satellite"
+                android:icon="@drawable/ic_satellite_black_24dp"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/terrain_map"
+                android:title="Terrain"
+                android:icon="@drawable/ic_terrain_black_24dp"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MainActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="Search"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/more_items"
+        android:icon="@drawable/ic_more_vert_white_24dp"
+        android:title=""
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/action_about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="@string/about_us"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_profile"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="Profile"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/action_playlist"
+                android:icon="@drawable/ic_playlist_play_black_24dp"
+                android:title="Playlist"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/action_rateus"
+                android:icon="@drawable/ic_grade_black_24dp"
+                android:title="@string/rate_us"
+                app:showAsAction="ifRoom">
+            </item>
+            <item
+                android:id="@+id/action_maps"
+                android:icon="@drawable/ic_map_black_24dp"
+                android:title="@string/maps"
+                app:showAsAction="ifRoom">
+            </item>
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/settings"
+                app:showAsAction="ifRoom">
+            </item>
+
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"></string>
+    <string name="general">Général</string>
+    <string name="personal_info">Informations personnelles</string>
+    <string name="dark_mode">Mode sombre</string>
+    <string name="push_notifications">Notifications push</string>
+    <string name="ff">Abonnés et abonnés</string>
+    <string name="rate_us">Évaluez nous</string>
+    <string name="about_us">À propos de nous</string>
+    <string name="settings">Réglages</string>
+</resources>
